@@ -1,0 +1,22 @@
+name,roll_no,nptel_status,mobile_no,branch,section
+John Doe,101,True,1234567890,CSE,A
+Jane Smith,102,False,2345678901,ECE,B
+Alice Brown,103,True,3456789012,ME,C
+Bob White,104,False,4567890123,EE,A
+Carol Black,105,True,5678901234,CE,B
+David Green,106,False,6789012345,CSE,B
+Eve Blue,107,True,7890123456,ECE,C
+Frank Yellow,108,False,8901234567,ME,A
+Grace Pink,109,True,9012345678,EE,B
+Hank Purple,110,False,1123456789,CE,C
+Ivy Orange,111,True,2234567890,CSE,A
+Jack Red,112,False,3345678901,ECE,B
+Karen Gold,113,True,4456789012,ME,C
+Leo Silver,114,False,5567890123,EE,A
+Mia White,115,True,6678901234,CE,B
+Nina Brown,116,False,7789012345,CSE,C
+Oscar Green,117,True,8890123456,ECE,A
+Paul Black,118,False,9901234567,ME,B
+Quincy Blue,119,True,1012345678,EE,C
+Rachel Yellow,120,False,2112345678,CE,A
+
