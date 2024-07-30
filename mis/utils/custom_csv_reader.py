@@ -23,9 +23,9 @@ class CustomCSVReader(BaseReader):
             csv_data = csv.reader(fp)
 
             if csv_prefixes is not None:
-                for idx, column in enumerate(csv_data):
+                for idx, row in enumerate(csv_data):
                     # Adding prefix and suffix for each column in a record.
-                    csv_data[idx] = csv_prefixes[idx][0] + column + csv_prefixes[idx][1]
+                    csv_data[idx] = csv_prefixes[idx][0] + row + csv_prefixes[idx][1]
             else:
                 for row in csv_data:
                     text_chunks.append(", ".join(row))
