@@ -1,5 +1,0 @@
-{
-    "GeneralQuery": {
-        "StudentQueries": "get_student_details():\nThis function returns all the students details"
-    }
-}
