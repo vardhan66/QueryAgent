@@ -1,4 +1,4 @@
-name,roll_no,nptel_status,mobile_no,branch,section
+name,rollno,nptel_status,mobile_no,branch,section
 John Doe,101,True,1234567890,CSE,A
 Jane Smith,102,False,2345678901,ECE,B
 Alice Brown,103,True,3456789012,ME,C
@@ -19,4 +19,5 @@ Oscar Green,117,True,8890123456,ECE,A
 Paul Black,118,False,9901234567,ME,B
 Quincy Blue,119,True,1012345678,EE,C
 Rachel Yellow,120,False,2112345678,CE,A
-
+Usha Parchuri,121,False,1234567890,CSM,A
+Jaya Krishna, 122, True, 1456789023, CSE, B

@@ -1,5 +1,5 @@
 from llama_index.core.readers.base import BaseReader
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional, Union, Tuple
 from llama_index.core.schema import Document
 from pathlib import Path
 
@@ -9,7 +9,7 @@ class CustomCSVReader(BaseReader):
         super().__init__(*args, **kwargs)
         self.concat_rows = concat_rows
 
-    def load_data(self, file: Path, csv_prefixes: Optional[List[str]] = None, extra_info: Optional[Dict] = None) -> \
+    def load_data(self, file: Path, csv_prefixes: Optional[List[Tuple[str]]] = None, extra_info: Optional[Dict] = None) -> \
             List[Document]:
         """Method for loading vectors"""
 
@@ -21,11 +21,12 @@ class CustomCSVReader(BaseReader):
         text_chunks = []
         with open(file) as fp:
             csv_data = csv.reader(fp)
-
             if csv_prefixes is not None:
-                for idx, row in enumerate(csv_data):
+                for row_idx, row in enumerate(csv_data):
                     # Adding prefix and suffix for each column in a record.
-                    csv_data[idx] = csv_prefixes[idx][0] + row + csv_prefixes[idx][1]
+                    prefix_row = [csv_prefixes[col_idx][0] + col + csv_prefixes[col_idx][1] for col_idx, col in enumerate(row)]
+                         
+                    text_chunks.append(" ".join(prefix_row))
             else:
                 for row in csv_data:
                     text_chunks.append(", ".join(row))

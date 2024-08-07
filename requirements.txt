@@ -1,6 +1,2 @@
-Django==5.0.6
-psycopg
-psycopg2
-dotenv
-requests
-
+chromadb==0.5.5
+llama_index==0.10.57
