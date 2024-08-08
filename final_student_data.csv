@@ -1,0 +1,23 @@
+index,name,rollno,nptel_status,mobile_no,branch,section,description
+0,John Doe,101.0,True,1234567890.0,CSE,A,Certified Web Developer.
+1,Jane Smith,102.0,False,2345678901.0,ECE,B,First Place in Debate Competition and Sports Team Captain and Certified in Python Programming.
+2,Alice Brown,103.0,True,3456789012.0,ME,C,Hackathon Finalist and Sports Team Captain and Best Student Award.
+3,Bob White,104.0,False,4567890123.0,EE,A,Certified in Python Programming and National Science Fair Winner and Robotics Competition Winner.
+4,Carol Black,105.0,True,5678901234.0,CE,B,Graduated with Honors and Top Scorer in Science and Math Olympiad Winner.
+5,David Green,106.0,False,6789012345.0,CSE,B,Certified Java Developer and Top Scorer in Science and Certified in Python Programming.
+6,Eve Blue,107.0,True,7890123456.0,ECE,C,App Development Competition Winner and Scholarship Recipient.
+7,Frank Yellow,108.0,False,8901234567.0,ME,A,Certified Web Developer and Hackathon Finalist and Graduated with Honors.
+8,Grace Pink,109.0,True,9012345678.0,EE,B,Graduated with Honors.
+9,Hank Purple,110.0,False,1123456789.0,CE,C,App Development Competition Winner and Hackathon Finalist.
+10,Ivy Orange,111.0,True,2234567890.0,CSE,A,Graduated with Honors..1
+11,Jack Red,112.0,False,3345678901.0,ECE,B,Hackathon Finalist and Volunteer at Local NGO and Robotics Competition Winner.
+12,Karen Gold,113.0,True,4456789012.0,ME,C,National Science Fair Winner and Chess Champion.
+13,Leo Silver,114.0,False,5567890123.0,EE,A,Intern at Tech Company and Scholarship Recipient.
+14,Mia White,115.0,True,6678901234.0,CE,B,Intern at Tech Company and Certified Java Developer.
+15,Nina Brown,116.0,False,7789012345.0,CSE,C,Certified in Python Programming and Certified Web Developer.
+16,Oscar Green,117.0,True,8890123456.0,ECE,A,Math Olympiad Winner and Certified in Python Programming and Hackathon Finalist.
+17,Paul Black,118.0,False,9901234567.0,ME,B,First Place in Debate Competition and Certified Web Developer and Certified in Python Programming.Scholarship Recipient and Best Student Award.
+18,Quincy Blue,119.0,True,1012345678.0,EE,C,Math Olympiad Winner.
+19,Rachel Yellow,120.0,False,2112345678.0,CE,A,National Science Fair Winner and Creative Writing Contest Winner and Hackathon Finalist.Robotics Competition Winner and App Development Competition Winner.
+20,Usha Parchuri,121.0,False,1234567890.0,CSM,A,Math Olympiad Winner and Dean's List.
+21,Jaya Krishna,122.0, True,1456789023.0, CSE, B,Certified Data Analyst.
