@@ -9,7 +9,7 @@ class CustomCSVReader(BaseReader):
         super().__init__(*args, **kwargs)
         self.concat_rows = concat_rows
 
-    def load_data(self, file: Path, csv_prefixes: Optional[List[Tuple[str]]] = None, extra_info: Optional[Dict] = None) -> \
+    def load_data(self, file: Path, csv_prefixes: Optional[List[Tuple[str, str]]] = None, extra_info: Optional[Dict] = None) -> \
             List[Document]:
         """Method for loading vectors"""
 
